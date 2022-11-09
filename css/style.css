@@ -9,6 +9,9 @@
 body{
     font-family: "Poppins", sans-serif;
 }
+.t-center{
+    text-align: center;
+}
 a, a:hover{
     text-decoration: none;
 }
@@ -58,9 +61,11 @@ nav a:hover{
 }
 
 /* MAIN */
+
+
 .grid_container{
     max-width: 1600px;
-    height: 2500px;
+    height: 1000px;
     margin: 20px auto;
 
     display: grid;
@@ -72,11 +77,16 @@ nav a:hover{
     border: 1px solid black;
 }
 .grid_item1{
-    grid-column: span 4;
+    grid-column: span 2;
+    
 }
 .grid_item2{
     grid-column: span 2;
 }
+
+/* HOME FLEX_CONTAINERS */
+
+
 .footy{
     max-width: 1600px;
     height: 300px;
@@ -108,5 +118,15 @@ nav a:hover{
         position: absolute;
         top: 15px;
         right: 20px;
+    }
+    .grid_item1{
+        grid-column: span 4;
+        
+    }
+    .grid_item2{
+        grid-column: span 4;
+    }
+    .grid_container article{
+        margin: 0px 15px;
     }
 }
