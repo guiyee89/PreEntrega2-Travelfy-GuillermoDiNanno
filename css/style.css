@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* MOBILE */
+
+.t-center{
+    text-align: center;
+}
+
+#grid{
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+}
+header{
+    grid-area: header;
+}
+main{
+    grid-area: main;
+}
+footer{
+    grid-area: footer;
+}
+.card img{
+    width: 300px;
+}
+/* MOBILE HEADER */
+
+.nav_bar{
+    background-color: rgba(0, 0, 0, 0.404);
+    height: 120px;
+}
+.menu{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+}
+.menu li{
+    list-style: none;
+    padding: ;
+}
+.menu li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    
+    
+}
