@@ -218,6 +218,10 @@ button {
     width: 450px;
     padding: 15px;
 }
+.grid_travel_col_1 img{
+    width: 450px;
+    padding: 15px;
+}
 .flex_item_travel{
     display: flex;
     flex-direction: row;
@@ -291,6 +295,12 @@ button {
     grid-column: span 4;
 }
 
+
+/* -----ABOUT----- */
+
+.about_img{
+    width: 500px!important;
+}
 
 /* --------FOOTER---------- */
 
@@ -452,6 +462,13 @@ footer{
         margin: 20px 10px;
         text-align: center;
     }
+    /* ABOUT */
+    .about_img{
+        width: 350px!important;
+    }
+
+    
+    /* FUCKING GALAXY FOLD PRUEBA */
 }
 @media screen and (max-width: 350px) {
     .travel_img img{
