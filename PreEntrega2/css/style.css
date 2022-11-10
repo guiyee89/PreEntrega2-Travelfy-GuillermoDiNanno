@@ -68,7 +68,22 @@ nav a:hover{
     display: none;
 }
 
+/* ----CAROUSEL----- */
+
+.carousel-item img{
+    width: 85%!important;
+    margin: auto;   
+}
+.carousel-control-prev{
+    width: 18%;
+}
+.carousel-control-next{
+    width: 18%;
+}
+
 /* -----------MAIN------------ */
+
+
 
 
 .grid_container{
@@ -91,6 +106,8 @@ nav a:hover{
 .grid_item2{
     grid-column: span 2;
 }
+
+
 
 
 /* -------HOME FLEX_CONTAINERS------- */
@@ -161,7 +178,11 @@ button {
    }
 
    
+
+
 /* -------GRID TRAVEL-------- */
+
+
 
 
 .t-center-travel{
@@ -243,7 +264,11 @@ button {
 }
 
 
+
+
 /* --------FOOTER---------- */
+
+
 
 
 footer{
@@ -313,7 +338,10 @@ footer{
 
 
 
+
 /* --------TABLET Y MOBILE--------- */
+
+
 
 @media screen and (max-width: 950px) {
     nav{
@@ -359,6 +387,15 @@ footer{
 @media screen and (max-width: 1200px) {
     .grid_container_travel article{
         margin: 0;
+    }
+    .carousel-item img{
+        width: 100%!important;
+    }
+    .carousel-control-prev{
+        width: 18%;
+    }
+    .carousel-control-next{
+        width: 18%;
     }
 }
 @media screen and (max-width: 850px) {
