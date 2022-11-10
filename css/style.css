@@ -180,7 +180,7 @@ button {
    
 
 
-/* -------GRID TRAVEL-------- */
+/* -------GRID ARTICLE TRAVEL-------- */
 
 
 
@@ -265,7 +265,9 @@ button {
     transition: all 0.3s ease-in-out;
 }
 
-/* -----GRID SERVICE----- */
+
+/* -----GRID ARTICLE SERVICE----- */
+
 .grid_container_service{
     /* max-width: 2600px; */
     /* height: 1000px; */
@@ -280,7 +282,7 @@ button {
 .grid_container_service article{
     border: 1px solid black;
     width: auto;
-    margin: 0px 100px;
+    margin: 0px auto;
     box-shadow: 10px 7px 114px 5px rgba(0,0,0,0.75);
     -webkit-box-shadow: 10px 7px 114px 5px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 7px 114px 5px rgba(0,0,0,0.75);
@@ -412,6 +414,9 @@ footer{
     .grid_container_travel article{
         margin: 0;
     }
+    .grid_container_service article{
+        margin: 0;
+    }
     .carousel-item img{
         width: 100%!important;
     }
@@ -439,6 +444,13 @@ footer{
     }
     .col_travel_reverse{
         flex-direction: column;
+    }
+
+    /* SERVICE */
+    .grid_container_service{
+        grid-template-columns: 1fr;
+        margin: 20px 10px;
+        text-align: center;
     }
 }
 @media screen and (max-width: 350px) {
