@@ -198,7 +198,9 @@ button {
     margin: 20px 40px;
     display: grid;
     gap: 1.5rem;
-    grid-template-columns: 1fr 1fr 1fr 1fr   
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;  
+    
 }
 .grid_container_travel article{
     border: 1px solid black;
@@ -399,5 +401,21 @@ footer{
     }
 }
 @media screen and (max-width: 850px) {
-
+    .grid_container_travel{
+        grid-template-columns: 1fr;
+        margin: 20px 10px;
+        text-align: center;
+    }
+    .grid_travel_col_1{
+        grid-column: span 2;
+    }
+    .flex_item_travel{
+        flex-direction: column-reverse;
+    }
+    .travel_img img{
+        width: 350px;
+    }
+    .button_travel{
+        order: 1;
+    }
 }
