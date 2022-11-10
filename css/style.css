@@ -302,6 +302,30 @@ button {
     width: 500px!important;
 }
 
+
+/* ------CONTACT----- */
+
+.form{
+    margin: 100px;
+}
+.form .row{
+    width: 70%;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.form .mb-3{
+    width: 70%;
+    margin-left: 60px;
+}
+.form-floating{
+    padding: 10px;
+    margin: 0px 50px;
+}
+.col-12{
+    margin: 30px 60px;
+
+}
+
 /* --------FOOTER---------- */
 
 
@@ -467,7 +491,27 @@ footer{
         width: 350px!important;
     }
 
+    /* CONTACT */
+
+    .form{
+        margin: 10px;
+    }
+    .form .row{
+        width: auto;
+        margin-right: 40px;
+        margin-bottom: 20px;
+    }
     
+    .form-floating{
+        padding: 10px;
+        margin: auto;
+    }
+    .col-12{
+        margin: 30px 15px;
+
+    }
+
+
     /* FUCKING GALAXY FOLD PRUEBA */
 }
 @media screen and (max-width: 350px) {
