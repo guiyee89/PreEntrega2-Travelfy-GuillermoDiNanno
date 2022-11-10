@@ -1,0 +1,11 @@
+terminar responsive tablet mobile de Travel
+
+copiar los enlaces de pagina anterior a los icons socials
+
+hacer rutas
+
+hacer form
+
+hacer about (con acordeon quizas?)
+
+pagina de servicios.. probar otra forma de grid (despues de form y about ya q son sencillas)
