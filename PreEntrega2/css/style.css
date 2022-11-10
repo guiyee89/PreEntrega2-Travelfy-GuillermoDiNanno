@@ -101,7 +101,8 @@ nav a:hover{
 }
 .grid_container_travel article{
     border: 1px solid black;
-    width: 100%;
+    width: auto;
+    margin: 0px 100px;
     box-shadow: 10px 7px 114px 5px rgba(0,0,0,0.75);
     -webkit-box-shadow: 10px 7px 114px 5px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 7px 114px 5px rgba(0,0,0,0.75);
@@ -145,6 +146,7 @@ nav a:hover{
   
 .zoom_1:hover {
     transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    transition: all 0.5s ease-in-out;
 }
 .zoom_2{
     padding: 50px;
@@ -157,6 +159,7 @@ nav a:hover{
   
 .zoom_2:hover {
     transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    transition: all 0.5s ease-in-out;
 }
 
 
@@ -346,4 +349,12 @@ footer{
     .grid_container article{
         margin: 0px 15px;
     }
+}
+@media screen and (max-width: 1200px) {
+    .grid_container_travel article{
+        margin: 0;
+    }
+}
+@media screen and (max-width: 850px) {
+
 }
