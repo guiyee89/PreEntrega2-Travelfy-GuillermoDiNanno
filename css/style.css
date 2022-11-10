@@ -415,5 +415,12 @@ footer{
     .travel_img img{
         width: 350px;
     }
-    
+    .col_travel_reverse{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 350px) {
+    .travel_img img{
+        width: 250px;
+    }
 }
